@@ -3,7 +3,7 @@
  */
 public class Flight {
 
-    private String DEPARTURE;
+    private String DATE;
     private String DEPARTURE_AP;
     private String ARRIVAL_AP;
     private String DEPARTURE_DT;
@@ -11,10 +11,11 @@ public class Flight {
     private int FLIGHT_NR;
     private String DEPARTURE_WD;
     private int PASSENGERS;
+    private Boolean XTRA_LUGGAGE;
 
 
-            public Flight(int DEPARTURE, int DEPARTURE_AP, int ARRIVAL_AP, int DEPARTURE_DT,int ARRIVAL_DT, int FLIGHT_NR, int DEPARTURE_WD){
-                this.DEPARTURE = DEPARTURE;
+            public Flight(String DATE, String DEPARTURE_AP, String ARRIVAL_AP, String DEPARTURE_DT, String ARRIVAL_DT, int FLIGHT_NR, String DEPARTURE_WD, int PASSENGERS, Boolean XTRA_LUGGAGE){
+                this.DATE = DATE;
                 this.DEPARTURE_AP = DEPARTURE_AP;
                 this.ARRIVAL_AP = ARRIVAL_AP;
                 this.DEPARTURE_DT = DEPARTURE_DT;
@@ -22,10 +23,11 @@ public class Flight {
                 this.FLIGHT_NR = FLIGHT_NR;
                 this.DEPARTURE_WD = DEPARTURE_WD;
                 this.PASSENGERS = PASSENGERS;
+                this.XTRA_LUGGAGE = XTRA_LUGGAGE;
             }
 
-    public String getDEPARTURE() {
-        return DEPARTURE;
+    public String getDATE() {
+        return DATE;
     }
 
     public String  getDEPARTURE_AP(){
@@ -54,5 +56,9 @@ public class Flight {
 
     public int getPASSENGERS() {
         return PASSENGERS;
+    }
+
+    public Boolean getXTRA_LUGGAGE() {
+        return XTRA_LUGGAGE;
     }
 }
