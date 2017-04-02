@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 /**
- * Created by Steinn Arnar on 28-Mar-17.
+ * Created by Steinn Arnar on 29-Mar-17.
  */
 
 public class MockStorageComponent {
-    private ArrayList<Flight> flights;
+    public ArrayList<Flight> flights;
 
     public MockStorageComponent(){
      flights = new ArrayList<Flight>();
