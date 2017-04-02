@@ -9,17 +9,17 @@ public class MockStorageComponent {
 
     public MockStorageComponent(){
      flights = new ArrayList<Flight>();
-     Flight flight1 = new Flight("15.04.2017","RKV","AEY","1600","1645", 166,"Saturday",35, true);
+     Flight flight1 = new Flight("15.04.2017","RKV","AEY","1600","1645", 166,"Sat",35, true);
      flights.add(flight1);
-     Flight flight2 = new Flight("15.04.2017","AEY","RKV", "2130", "2105", 167,"Saturday",23, false);
+     Flight flight2 = new Flight("15.04.2017","AEY","RKV", "2130", "2105", 167,"Sat",23, false);
      flights.add(flight2);
-     Flight flight3 = new Flight("16.04.2017","RKV","IFJ", "0810", "0850", 16,"Sunday",4, false);
+     Flight flight3 = new Flight("16.04.2017","RKV","IFJ", "0810", "0850", 16,"Sun",4, false);
      flights.add(flight3);
-     Flight flight4 = new Flight("16.04.2017","IFJ","RKV", "0915", "0955", 17,"Saturday",32, false);
+     Flight flight4 = new Flight("16.04.2017","IFJ","RKV", "0915", "0955", 17,"Sun",32, false);
      flights.add(flight4);
-     Flight flight5 = new Flight("17.04.2017","RKV","EGS", "1320", "1420", 345,"Sunday",74,  true);
+     Flight flight5 = new Flight("17.04.2017","RKV","EGS", "1320", "1420", 345,"Mon",74,  true);
      flights.add(flight5);
-     Flight flight6 = new Flight("17.04.2017","EGS","RKV", "1500", "1600", 346,"Sunday",34, false);
+     Flight flight6 = new Flight("17.04.2017","EGS","RKV", "1500", "1600", 346,"Mon",34, false);
      flights.add(flight6);
      }
 
