@@ -5,7 +5,7 @@ import java.util.ArrayList;
  */
 
 public class MockStorageComponent {
-    public ArrayList<Flight> flights;
+    private ArrayList<Flight> flights;
 
     public MockStorageComponent(){
      flights = new ArrayList<Flight>();
@@ -21,7 +21,7 @@ public class MockStorageComponent {
      flights.add(flight5);
      Flight flight6 = new Flight("17.04.2017","EGS","RKV", "1500", "1600", 346,"Mon",34, false);
      flights.add(flight6);
-     Flight flight7 = new Flight("12.04,2017","")
+   
 
      }
 

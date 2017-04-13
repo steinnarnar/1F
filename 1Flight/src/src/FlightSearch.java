@@ -29,6 +29,7 @@ public class FlightSearch {
             ArrayList<Flight> flights = dbConnection.getFlightByDepartureTime(DEPARTURE_DT,DATE);
 
             return flights;
+			System.out.println(java.util.Arrays.toString(flights));
         }
 
 }

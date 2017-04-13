@@ -96,4 +96,16 @@ public class Flight {
     public void setXTRA_LUGGAGE(Boolean XTRA_LUGGAGE) {
         this.XTRA_LUGGAGE = XTRA_LUGGAGE;
     }
+
+public String toString() {
+    return ("Date:" + this.getDATE() + "\n" +
+                "Departure Airport: "+ this.getDEPARTURE_AP() + "\n" +
+                "Arrival airport: "+ this.getARRIVAL_AP() + "\n" +
+                "Departure: " + this.getDEPARTUE_DT() + "\n" +
+                "Arrival: " + this.getARRIVAL_DT() + "\n" +
+                "Flight Number: " + this.getFLIGHT_NR() + "\n" +
+                "Weekday: " + this.getDEPARTURE_WD() +  "\n" +
+                "Number of passengers: " + this.getPASSENGERS() +  "\n" +
+                "Excess luggage allowed?: " + this.getXTRA_LUGGAGE());
+	}
 }
